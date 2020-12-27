@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="kalkulatorcss/kalkulator.css">
+</head>
+<body>
+    <div class="container">
+        <div> <form name="form"> <input type="text" name="textview" class="input" readonly> </form> </div>
+        <section class="calc">
+            <div class="item" onclick="insert('+')"> + </div>
+            <div class="item" onclick="insert('-')"> - </div>
+            <div class="item" onclick="insert('*')"> &times; </div>
+            <div class="item" onclick="insert('/')"> &divide; </div>
+            <div class="item" onclick="insert('7')"> 7 </div>
+            <div class="item" onclick="insert('8')"> 8 </div>
+            <div class="item" onclick="insert('9')"> 9 </div>
+            <div class="item" onclick="insert('4')"> 4 </div>
+            <div class="item" onclick="insert('5')"> 5 </div>
+            <div class="item" onclick="insert('6')"> 6 </div>
+            <div class="item" onclick="insert('1')"> 1️ </div>
+            <div class="item" onclick="insert('2')"> 2 </div>
+            <div class="item" onclick="insert('3')"> 3 </div>
+            <div class="item" onclick="insert('0')"> 0 </div>
+            <div class="item" onclick="insert('.')"> . </div>
+            <div class="item clean" onclick="clean('')"> C </div>
+            <div class="item result" onclick="result('')"> = </div>
+        </section>
+
+         <h2>  Created by MrSimple </h2>
+    </div>
+
+ 
+ 
+    <script src="kalkulator.js"></script>
+</body>
+</html>
